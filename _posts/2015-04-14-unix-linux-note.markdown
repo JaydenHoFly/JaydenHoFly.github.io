@@ -11,21 +11,27 @@ tags:
 	- Optional
 ---
 
-# Optional
+## Foreword
 
->   作为一名Java开发者，在开发过程中，判断是否为空是让我纠结的几个点之一，听说Java 8提供了一个Optional类用于解决这个问题，我已经迫不及待要去了解他了。
+> Here comes Module!
 
-- 作用
-    - 经过研究使用之后，得出一个结论：Optional类其实是用一种具象的方式来避免开发者忘记判空，具体来说就是，Optional是一种傻瓜式的方式，因为Null自身的可读性是很差的，所以利用Optional包裹操作对象，强行用可读文字来提醒开发者需要考虑操作对象为空的可能性，例如if(optional.isPresent())相对于if (xxx==null)，可读性就强了很多，而且Optional还提供了`or(Supplier<? extends T> supplier)`，可以利用lambda表达式简化代码，例如`nameOptional.or(()->"name is absent")`，当name为空时，就会执行括号中的lambda表达式，返回"name is absent"，之前的版本中还提供了isPresent()方法也支持lambda，但是后来移除了，不知道是基于什么考虑；
-    - 另外，Guava还提供了一些方法用于避免手动判空：
-        - Strings
-            - emptyToNull(String) 
-            - isNullOrEmpty(String)
-            - nullToEmpty(String)
-        - Preconditions
-            - checkNotNull(T reference) 
-- 用法
-  - Google在JDK之外提供了一个类似开发者工具类库的开发包Guava(番石榴：瓜娃)，Optional就是[Guava](https://github.com/google/guava)提供的，所以首先需要在Gradle中引入`compile 'com.google.guava:guava:19.0'`。
-  - 详细用法：[官方介绍的很详细](https://github.com/google/guava/wiki/UsingAndAvoidingNullExplained#optional)
-- 意义
-    - 还没有在具体开发中使用Optinal，所以先挖坑，后面来填。   
+随着网站逐渐变成「互联网应用程序」，嵌入网页的 JavaScript 代码越来越庞大，越来越复杂。网页越来越像桌面程序，需要一个团队分工协作、进度管理、单元测试……我们不得不使用软件工程的方法，来管理网页的业务逻辑。
+
+于是，JavaScript 的模块化成为迫切需求。在 ES6 Module 来临之前，JavaScript 社区提供了强大支持，尝试在现有的运行环境下，实现模块的效果。
+
+
+---
+
+## Catalog
+
+
+1.  [CommonJS & Node](#commonjs--node)
+3.  [History](#history)
+4.  [RequireJS & AMD](#requirejs--amd)
+5.  [SeaJS & CMD](#seajs--cmd)
+6.  [AMD vs CMD](#amd-vs-cmd)
+7.  [WebPack](#webpack)
+
+
+
+## CommonJS & Node
