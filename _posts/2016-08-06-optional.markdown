@@ -9,7 +9,7 @@ tags:
 	- java
 ---
 
-# Optional
+# Optional 
 
 >   作为一名Java开发者，在开发过程中，判断是否为空是让我纠结的几个点之一，听说Java 8提供了一个Optional类用于解决这个问题，我已经迫不及待要去了解他了。
 
