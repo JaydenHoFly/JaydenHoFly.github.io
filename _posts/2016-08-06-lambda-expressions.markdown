@@ -15,7 +15,7 @@ tags:
 > 匿名内部类已经是一种简洁的表示方法了，但是还有一个问题，例如一个接口，它只含有一个方法，那么匿名内部类就不那么易于使用了，因为会出现很多冗余的代码，这个时候开发者就会想要将函数当成一个参数传递给一个方法，例如为控件设置点击事件。所以就出现了Lambda表达式，Java8引入了这个新特性，使用Android Studio编程时，会发现为控件设置点击事件的代码会“变样”，如下第二种表示方式就是Lambda表达式，既然官方都这样用了，那我们还有什么理由不拥抱这种方式呢。
 
 ```
- view.setOnClickListener(new View.OnClickListener() {//明明是这样写的
+ view.setOnClickListener(new View.OnClickListener() {//明明是这样写的 
             @Override
             public void onClick(View v) {
                 

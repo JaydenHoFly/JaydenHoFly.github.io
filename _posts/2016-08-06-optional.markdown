@@ -28,4 +28,4 @@ tags:
   - Google在JDK之外提供了一个类似开发者工具类库的开发包Guava(番石榴：瓜娃)，Optional就是[Guava](https://github.com/google/guava)提供的，所以首先需要在Gradle中引入`compile 'com.google.guava:guava:19.0'`。
   - 详细用法：[官方介绍的很详细](https://github.com/google/guava/wiki/UsingAndAvoidingNullExplained#optional)
 - 意义
-    - 还没有在具体开发中使用Optinal，所以先挖坑，后面来填。 
+    - 还没有在具体开发中使用Optinal，所以先挖坑，后面来填。   
