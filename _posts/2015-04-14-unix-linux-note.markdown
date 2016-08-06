@@ -1,14 +1,13 @@
 ---
 layout:     post
-title:      "Example Post"
-subtitle:   "不适合人类阅读，非常水的自我笔记"
-date:       2015-04-14
-author:     "Hux"
-header-img: "img/post-bg-unix-linux.jpg"
+title:      "Lambda Expressions"
+subtitle:   "Learn Lambda"
+date:       2016-08-06
+author:     "Jayden"
+header-img: "img/post-bg-2015.jpg"
 tags:
-    - OS
-    - Unix
-    - Linux
+    - Java
+	- Lambda
 ---
 
 ## Foreword
