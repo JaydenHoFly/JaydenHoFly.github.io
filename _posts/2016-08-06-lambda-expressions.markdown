@@ -1,13 +1,14 @@
 ---
-layout:     post
-title:      "Lambda Expressions"
-subtitle:   "Learn Lambda"
-date:       2016-08-06
-author:     "Jayden"
+layout:		post
+title:      "Exafmple Post"
+subtitle:   "不适合人类阅读，非常水的自我笔记"
+date:       2016-04-14
+author:     "Huxx"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Java
-	- Lambda
+    - OS
+    - Unix
+    - Linux
 ---
 
 # Lambda

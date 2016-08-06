@@ -1,13 +1,14 @@
 ---
-layout:     post
+layout:		post
 title:      "Lambda Expressions"
 subtitle:   "Learn Lambda"
 date:       2015-04-14
 author:     "Jayden"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Java
-	- Lambda
+    - OS
+    - Unix
+    - Linux
 ---
 
 ## Foreword
