@@ -7,6 +7,10 @@ author:     "JaydenHo"
 header-img: "img/post-bg-2015.jpg"
 tags:
 	- java
+tags:
+    - Java
+    - Guava
+    - Lambda
 ---
 
 # Optional 

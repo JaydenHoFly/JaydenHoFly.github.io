@@ -9,6 +9,7 @@ tags:
     - Java
     - Guava
     - Lambda
+	- Lambda1
 ---
 
 # Lambda 
