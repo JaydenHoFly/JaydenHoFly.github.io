@@ -13,7 +13,7 @@ keyword: ""
 # SNS settings
 RSS: false
 #weibo_username:     huxpro
-zhihu_username:     JaydenHo
+zhihu_username:     raymond-ho-44
 github_username:    JaydenHoFly
 #twitter_username:  huxpro
 #facebook_username:  huxpro
@@ -81,8 +81,5 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # Friends
 friends: [
-    {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    }
+    
 ]
