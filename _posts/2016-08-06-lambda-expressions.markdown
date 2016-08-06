@@ -6,9 +6,9 @@ date:		2016-08-06
 author:		"JaydenHo"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - OS
-    - Unix
-    - Linux
+    - Guava
+	- Java
+    - Lambda
 ---
 
 # Lambda
