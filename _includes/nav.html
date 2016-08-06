@@ -24,7 +24,7 @@
                     <li>
                         <a href="{{ site.baseurl }}/">Home</a>
                     </li>
-                    {% for page in site.pages %}{% if page.title %} <!-- 遍历文件夹中的文件,如果某个page设置了title,就显示在顶部导航栏-->
+                    {% for page in site.pages %}{% if page.title %}
                     <li>
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
