@@ -12,28 +12,28 @@ tags:
 
 # Lambda
 
-> ÄäÃûÄÚ²¿ÀàÒÑ¾­ÊÇÒ»ÖÖ¼ò½àµÄ±íÊ¾·½·¨ÁË£¬µ«ÊÇ»¹ÓĞÒ»¸öÎÊÌâ£¬ÀıÈçÒ»¸ö½Ó¿Ú£¬ËüÖ»º¬ÓĞÒ»¸ö·½·¨£¬ÄÇÃ´ÄäÃûÄÚ²¿Àà¾Í²»ÄÇÃ´Ò×ÓÚÊ¹ÓÃÁË£¬ÒòÎª»á³öÏÖºÜ¶àÈßÓàµÄ´úÂë£¬Õâ¸öÊ±ºò¿ª·¢Õß¾Í»áÏëÒª½«º¯Êıµ±³ÉÒ»¸ö²ÎÊı´«µİ¸øÒ»¸ö·½·¨£¬ÀıÈçÎª¿Ø¼şÉèÖÃµã»÷ÊÂ¼ş¡£ËùÒÔ¾Í³öÏÖÁËLambda±í´ïÊ½£¬Java8ÒıÈëÁËÕâ¸öĞÂÌØĞÔ£¬Ê¹ÓÃAndroid Studio±à³ÌÊ±£¬»á·¢ÏÖÎª¿Ø¼şÉèÖÃµã»÷ÊÂ¼şµÄ´úÂë»á¡°±äÑù¡±£¬ÈçÏÂµÚ¶şÖÖ±íÊ¾·½Ê½¾ÍÊÇLambda±í´ïÊ½£¬¼ÈÈ»¹Ù·½¶¼ÕâÑùÓÃÁË£¬ÄÇÎÒÃÇ»¹ÓĞÊ²Ã´ÀíÓÉ²»Óµ±§ÕâÖÖ·½Ê½ÄØ¡£
+> åŒ¿åå†…éƒ¨ç±»å·²ç»æ˜¯ä¸€ç§ç®€æ´çš„è¡¨ç¤ºæ–¹æ³•äº†ï¼Œä½†æ˜¯è¿˜æœ‰ä¸€ä¸ªé—®é¢˜ï¼Œä¾‹å¦‚ä¸€ä¸ªæ¥å£ï¼Œå®ƒåªå«æœ‰ä¸€ä¸ªæ–¹æ³•ï¼Œé‚£ä¹ˆåŒ¿åå†…éƒ¨ç±»å°±ä¸é‚£ä¹ˆæ˜“äºä½¿ç”¨äº†ï¼Œå› ä¸ºä¼šå‡ºç°å¾ˆå¤šå†—ä½™çš„ä»£ç ï¼Œè¿™ä¸ªæ—¶å€™å¼€å‘è€…å°±ä¼šæƒ³è¦å°†å‡½æ•°å½“æˆä¸€ä¸ªå‚æ•°ä¼ é€’ç»™ä¸€ä¸ªæ–¹æ³•ï¼Œä¾‹å¦‚ä¸ºæ§ä»¶è®¾ç½®ç‚¹å‡»äº‹ä»¶ã€‚æ‰€ä»¥å°±å‡ºç°äº†Lambdaè¡¨è¾¾å¼ï¼ŒJava8å¼•å…¥äº†è¿™ä¸ªæ–°ç‰¹æ€§ï¼Œä½¿ç”¨Android Studioç¼–ç¨‹æ—¶ï¼Œä¼šå‘ç°ä¸ºæ§ä»¶è®¾ç½®ç‚¹å‡»äº‹ä»¶çš„ä»£ç ä¼šâ€œå˜æ ·â€ï¼Œå¦‚ä¸‹ç¬¬äºŒç§è¡¨ç¤ºæ–¹å¼å°±æ˜¯Lambdaè¡¨è¾¾å¼ï¼Œæ—¢ç„¶å®˜æ–¹éƒ½è¿™æ ·ç”¨äº†ï¼Œé‚£æˆ‘ä»¬è¿˜æœ‰ä»€ä¹ˆç†ç”±ä¸æ‹¥æŠ±è¿™ç§æ–¹å¼å‘¢ã€‚
 
 ```
- view.setOnClickListener(new View.OnClickListener() {//Ã÷Ã÷ÊÇÕâÑùĞ´µÄ 
+ view.setOnClickListener(new View.OnClickListener() {//æ˜æ˜æ˜¯è¿™æ ·å†™çš„ 
             @Override
             public void onClick(View v) {
                 
             }
         });
         
-  view.setOnClickListener((v) -> {//ÓĞµÄÊ±ºò´úÂë¿´ÉÏÈ¥±ä³ÉÁËÕâÑù
+  view.setOnClickListener((v) -> {//æœ‰çš„æ—¶å€™ä»£ç çœ‹ä¸Šå»å˜æˆäº†è¿™æ ·
 
         });  
 ```
 
 
-- ÓÃ·¨
-    - [Android StudioÅäÖÃ£º](https://developer.android.com/preview/j8-jack.html#supported-features)
+- ç”¨æ³•
+    - [Android Studioé…ç½®ï¼š](https://developer.android.com/preview/j8-jack.html#supported-features)
     
         ```
         android {
-            buildToolsVersion "24.0.0"//´óÓÚ24¼´¿É
+            buildToolsVersion "24.0.0"//å¤§äº24å³å¯
             defaultConfig {
                 jackOptions {
                     enabled true
@@ -45,21 +45,21 @@ tags:
             }
         }
         ```
-    - Óï·¨
-        - Lambda±í´ïÊ½Ö»ÊÊÓÃÓÚÖ»º¬ÓĞÒ»¸ö·½·¨µÄ½Ó¿Ú
-        - Lambda±í´ïÊ½µÄ½á¹¹£º(Type params) -> {block}£¬Õû¸ö±í´ïÊ½´ú±íµÄÊÇ¡°½Ó¿ÚµÄÊµÏÖÀà¡±£»params´ú±íÕâ¸ö¡°½Ó¿ÚÖĞµÄ·½·¨µÄĞÎ²Î¡±£»Type´ú±í¡°ĞÎ²ÎµÄÀàĞÍ¡±£¬¿ÉÒÔÊ¡ÂÔ£»block´ú±í¡°½Ó¿ÚÖĞ·½·¨µÄÊµÏÖ¡°£¬¾ßÌåÇë¿´ÏÂÃæµÄÀı×Ó£»
+    - è¯­æ³•
+        - Lambdaè¡¨è¾¾å¼åªé€‚ç”¨äºåªå«æœ‰ä¸€ä¸ªæ–¹æ³•çš„æ¥å£
+        - Lambdaè¡¨è¾¾å¼çš„ç»“æ„ï¼š(Type params) -> {block}ï¼Œæ•´ä¸ªè¡¨è¾¾å¼ä»£è¡¨çš„æ˜¯â€œæ¥å£çš„å®ç°ç±»â€ï¼›paramsä»£è¡¨è¿™ä¸ªâ€œæ¥å£ä¸­çš„æ–¹æ³•çš„å½¢å‚â€ï¼›Typeä»£è¡¨â€œå½¢å‚çš„ç±»å‹â€ï¼Œå¯ä»¥çœç•¥ï¼›blockä»£è¡¨â€œæ¥å£ä¸­æ–¹æ³•çš„å®ç°â€œï¼Œå…·ä½“è¯·çœ‹ä¸‹é¢çš„ä¾‹å­ï¼›
         
         ```
-           public interface ISyntax {//Lambda±í´ïÊ½Ö»ÊÊÓÃÓÚÖ»º¬ÓĞÒ»¸ö·½·¨µÄ½Ó¿Ú
+           public interface ISyntax {//Lambdaè¡¨è¾¾å¼åªé€‚ç”¨äºåªå«æœ‰ä¸€ä¸ªæ–¹æ³•çš„æ¥å£
             int getInt(int i);
         }
     
-        private void invokeSyntax(ISyntax s) {//µ÷ÓÃÕâ¸ö·½·¨ĞèÒª´«µİISyntaxµÄÊµÏÖÀà
+        private void invokeSyntax(ISyntax s) {//è°ƒç”¨è¿™ä¸ªæ–¹æ³•éœ€è¦ä¼ é€’ISyntaxçš„å®ç°ç±»
             s.getInt(10);
         }
     
         private void learnSyntax() {
-            //ÄäÃûÄÚ²¿ÀàÒÑ¾­Ê¡ÂÔÁËÉùÃ÷¶ÔÏóÕâ¸ö²½Öè£¬¿´ÆğÀ´ºÜ¼ò½àÁË¡£
+            //åŒ¿åå†…éƒ¨ç±»å·²ç»çœç•¥äº†å£°æ˜å¯¹è±¡è¿™ä¸ªæ­¥éª¤ï¼Œçœ‹èµ·æ¥å¾ˆç®€æ´äº†ã€‚
             invokeSyntax(new ISyntax() {
                 @Override
                 public int getInt(int i) {
@@ -67,16 +67,16 @@ tags:
                 }
             });
     
-             // Lambda±í´ïÊ½ÆäÊµÒ²ÊÇÄäÃûµÄ£¬Ö»²»¹ı²»½ö½öÄäÁË¶ÔÏóÃû³Æ£¬»¹ÄäÁËÀàÃû£¬·½·¨Ãû
-            invokeSyntax((int i) -> { //ÕâÀïµÄint i¾ÍÊÇ½Ó¿ÚISyntaxÖĞµÄgetInt()·½·¨ÖĞµÄ²ÎÊı
-                return i++; //´óÀ¨ºÅÖĞµÄÄÚÈİ¾ÍÊÇgetInt()·½·¨µÄÊµÏÖ
+             // Lambdaè¡¨è¾¾å¼å…¶å®ä¹Ÿæ˜¯åŒ¿åçš„ï¼Œåªä¸è¿‡ä¸ä»…ä»…åŒ¿äº†å¯¹è±¡åç§°ï¼Œè¿˜åŒ¿äº†ç±»åï¼Œæ–¹æ³•å
+            invokeSyntax((int i) -> { //è¿™é‡Œçš„int iå°±æ˜¯æ¥å£ISyntaxä¸­çš„getInt()æ–¹æ³•ä¸­çš„å‚æ•°
+                return i++; //å¤§æ‹¬å·ä¸­çš„å†…å®¹å°±æ˜¯getInt()æ–¹æ³•çš„å®ç°
             });
     
-            invokeSyntax((i) -> i++);//¿ÉÒÔÊ¡ÂÔ²ÎÊıÀàĞÍ£¬»¹¿ÉÒÔÊ¡ÂÔ´óÀ¨ºÅºÍ¡°return¡±£¬Ö±½ÓĞ´·µ»ØÖµ
+            invokeSyntax((i) -> i++);//å¯ä»¥çœç•¥å‚æ•°ç±»å‹ï¼Œè¿˜å¯ä»¥çœç•¥å¤§æ‹¬å·å’Œâ€œreturnâ€ï¼Œç›´æ¥å†™è¿”å›å€¼
         }
         ```
         
-        - ×÷ÓÃÓò
+        - ä½œç”¨åŸŸ
         
         ```
         import java.util.function.Consumer;
@@ -125,9 +125,9 @@ tags:
         LambdaScopeTest.this.x = 0
         ```
         
-        - ·µ»ØÀàĞÍ
+        - è¿”å›ç±»å‹
             
-            Lambda±í´ïÊ½Ö»º¬ÓĞĞÎ²ÎÁĞ±íºÍÊµÏÖ´úÂë¿é£¬ÄÇÃ´JavaÈçºÎÅĞ¶ÏÒ»¸öLambda±í´ïÊ½´ú±íµÄ¾¿¾¹ÊÇÄÄ¸ö½Ó¿ÚµÄÊµÏÖÀàÄØ£¿¿´ÏÂÃæµÄÀı×Ó£º
+            Lambdaè¡¨è¾¾å¼åªå«æœ‰å½¢å‚åˆ—è¡¨å’Œå®ç°ä»£ç å—ï¼Œé‚£ä¹ˆJavaå¦‚ä½•åˆ¤æ–­ä¸€ä¸ªLambdaè¡¨è¾¾å¼ä»£è¡¨çš„ç©¶ç«Ÿæ˜¯å“ªä¸ªæ¥å£çš„å®ç°ç±»å‘¢ï¼Ÿçœ‹ä¸‹é¢çš„ä¾‹å­ï¼š
             
             ```
              //Target Type
@@ -165,7 +165,7 @@ tags:
         
             public void learnTargetType() {
                 //IInteger
-                use((int i) -> {//¸ÃLambda´ú±íµÄÊÇIIntegerµÄÊµÏÖÀà£¬ÒòÎª²ÎÊıÉùÃ÷ÁËÎªintÀàĞÍ
+                use((int i) -> {//è¯¥Lambdaä»£è¡¨çš„æ˜¯IIntegerçš„å®ç°ç±»ï¼Œå› ä¸ºå‚æ•°å£°æ˜äº†ä¸ºintç±»å‹
                     Log.d(TAG, "i: " + i);
                 });
                 //IString
@@ -177,30 +177,30 @@ tags:
                     Log.d(TAG, "param1: " + param1 + " param2: " + param2);
                 });
                 //IReturn
-                use((String str) -> "ÎÒÓĞ·µ»ØÖµ" + str);
+                use((String str) -> "æˆ‘æœ‰è¿”å›å€¼" + str);
             }
             ```
-           ¹ÙÍø×Ü½áÁËÒÔÏÂ¼¸µãÅĞ¶ÏTarget Type£¨Ä¿±êÀàĞÍ£©µÄ·½·¨
+           å®˜ç½‘æ€»ç»“äº†ä»¥ä¸‹å‡ ç‚¹åˆ¤æ–­Target Typeï¼ˆç›®æ ‡ç±»å‹ï¼‰çš„æ–¹æ³•
            
-            - Variable declarations ±äÁ¿ÉùÃ÷
+            - Variable declarations å˜é‡å£°æ˜
     
             - Assignments   
     
-            - Return statements     ·µ»ØÖµÉùÃ÷
+            - Return statements     è¿”å›å€¼å£°æ˜
             
-            - Array initializers    Êı×é³õÊ¼»¯
+            - Array initializers    æ•°ç»„åˆå§‹åŒ–
             
-            - Method or constructor arguments   ·½·¨»ò¹¹Ôìº¯Êı²ÎÊı
+            - Method or constructor arguments   æ–¹æ³•æˆ–æ„é€ å‡½æ•°å‚æ•°
             
-            - Lambda expression bodies  Lambda±í´ïÊ½´úÂë¿é
+            - Lambda expression bodies  Lambdaè¡¨è¾¾å¼ä»£ç å—
             
-            - Conditional expressions, ?: Ìõ¼ş±í´ïÊ½
+            - Conditional expressions, ?: æ¡ä»¶è¡¨è¾¾å¼
             
             - Cast expressions  
             
-    - ÓÅµã
-        - Lambda±í´ïÊ½ÆäÊµ¾ÍÊÇÄäÃûº¯Êı£¬¼ò½à£¬È¥³ıÁËÃ»ÓĞÊµ¼ÊÒâÒåµÄ´úÂë£»
-    - È±µã
-        - Õâ¸öÒ²²»ËãÊÇÈ±µã£¬Ê¹ÓÃLambda±í´ïÊ½±ØĞëÒª¶Ôº¯Êı·Ç³£µÄÊìÏ¤£¬ÖªµÀËüº¬ÓĞÊ²Ã´²ÎÊı£»
+    - ä¼˜ç‚¹
+        - Lambdaè¡¨è¾¾å¼å…¶å®å°±æ˜¯åŒ¿åå‡½æ•°ï¼Œç®€æ´ï¼Œå»é™¤äº†æ²¡æœ‰å®é™…æ„ä¹‰çš„ä»£ç ï¼›
+    - ç¼ºç‚¹
+        - è¿™ä¸ªä¹Ÿä¸ç®—æ˜¯ç¼ºç‚¹ï¼Œä½¿ç”¨Lambdaè¡¨è¾¾å¼å¿…é¡»è¦å¯¹å‡½æ•°éå¸¸çš„ç†Ÿæ‚‰ï¼ŒçŸ¥é“å®ƒå«æœ‰ä»€ä¹ˆå‚æ•°ï¼›
         
->  ²Î¿¼ÎÄÕÂ£º[Oracle¹ÙÍø](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax)¡¢[Android¿ª·¢ÕßÍøÕ¾](https://developer.android.com/preview/j8-jack.html#supported-features)¡£
+>  å‚è€ƒæ–‡ç« ï¼š[Oracleå®˜ç½‘](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax)ã€[Androidå¼€å‘è€…ç½‘ç«™](https://developer.android.com/preview/j8-jack.html#supported-features)ã€‚

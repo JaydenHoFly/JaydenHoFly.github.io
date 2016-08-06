@@ -13,19 +13,19 @@ tags:
 
 # Optional
 
->   ��Ϊһ��Java�����ߣ��ڿ��������У��ж��Ƿ�Ϊ�������Ҿ���ļ�����֮һ����˵Java 8�ṩ��һ��Optional�����ڽ��������⣬���Ѿ��Ȳ�����Ҫȥ�˽����ˡ�
+>   作为一名Java开发者，在开发过程中，判断是否为空是让我纠结的几个点之一，听说Java 8提供了一个Optional类用于解决这个问题，我已经迫不及待要去了解他了。
 
-- ����
-    - �����о�ʹ��֮�󣬵ó�һ�����ۣ�Optional����ʵ����һ�־���ķ�ʽ�����⿪���������пգ�������˵���ǣ�Optional��һ��ɵ��ʽ�ķ�ʽ����ΪNull�����Ŀɶ����Ǻܲ�ģ���������Optional������������ǿ���ÿɶ����������ѿ�������Ҫ���ǲ�������Ϊ�յĿ����ԣ�����if(optional.isPresent())�����if (xxx==null)���ɶ��Ծ�ǿ�˺ܶ࣬����Optional���ṩ��`or(Supplier<? extends T> supplier)`����������lambda����ʽ�򻯴��룬����`nameOptional.or(()->"name is absent")`����nameΪ��ʱ���ͻ�ִ�������е�lambda����ʽ������"name is absent"��֮ǰ�İ汾�л��ṩ��isPresent()����Ҳ֧��lambda�����Ǻ����Ƴ��ˣ���֪���ǻ���ʲô���ǣ�
-    - ���⣬Guava���ṩ��һЩ�������ڱ����ֶ��пգ�
+- 作用
+    - 经过研究使用之后，得出一个结论：Optional类其实是用一种具象的方式来避免开发者忘记判空，具体来说就是，Optional是一种傻瓜式的方式，因为Null自身的可读性是很差的，所以利用Optional包裹操作对象，强行用可读文字来提醒开发者需要考虑操作对象为空的可能性，例如if(optional.isPresent())相对于if (xxx==null)，可读性就强了很多，而且Optional还提供了`or(Supplier<? extends T> supplier)`，可以利用lambda表达式简化代码，例如`nameOptional.or(()->"name is absent")`，当name为空时，就会执行括号中的lambda表达式，返回"name is absent"，之前的版本中还提供了isPresent()方法也支持lambda，但是后来移除了，不知道是基于什么考虑；
+    - 另外，Guava还提供了一些方法用于避免手动判空：
         - Strings
             - emptyToNull(String) 
             - isNullOrEmpty(String)
             - nullToEmpty(String)
         - Preconditions
             - checkNotNull(T reference) 
-- �÷�
-  - Google��JDK֮���ṩ��һ�����ƿ����߹������Ŀ�����Guava(��ʯ�񣺹���)��Optional����[Guava](https://github.com/google/guava)�ṩ�ģ�����������Ҫ��Gradle������`compile 'com.google.guava:guava:19.0'`��
-  - ��ϸ�÷���[�ٷ����ܵĺ���ϸ](https://github.com/google/guava/wiki/UsingAndAvoidingNullExplained#optional)
-- ����
-    - ��û���ھ��忪����ʹ��Optinal���������ڿӣ��������   
+- 用法
+  - Google在JDK之外提供了一个类似开发者工具类库的开发包Guava(番石榴：瓜娃)，Optional就是[Guava](https://github.com/google/guava)提供的，所以首先需要在Gradle中引入`compile 'com.google.guava:guava:19.0'`。
+  - 详细用法：[官方介绍的很详细](https://github.com/google/guava/wiki/UsingAndAvoidingNullExplained#optional)
+- 意义
+    - 还没有在具体开发中使用Optinal，所以先挖坑，后面来填。   
