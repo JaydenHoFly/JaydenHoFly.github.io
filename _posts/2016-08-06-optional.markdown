@@ -8,10 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 tags:
     - Java
     - Guava
-    - Lambda
-	- Java
-    - Guava
-    - Lambda
+    - Optional
 ---
 
 # Optional 
