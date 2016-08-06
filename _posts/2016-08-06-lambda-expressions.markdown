@@ -2,7 +2,7 @@
 layout:     post
 title:      "Lambda Expressions"
 subtitle:   "Learn Lambda"
-date:       2016-08-06 14:18:00
+date:       2016-08-06
 author:     "Jayden"
 header-img: "img/post-bg-2015.jpg"
 tags:
