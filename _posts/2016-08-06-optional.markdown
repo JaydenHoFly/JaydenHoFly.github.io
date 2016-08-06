@@ -9,7 +9,6 @@ tags:
     - Java
     - java
     - Linux
-	- Optional
 ---
 
 # Optional
