@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      "Optional"
-subtitle:   "Learn Optional"
-date:       2016-08-06 14:18:00
-author:     "Jayden"
-header-img: "img/post-bg-2015.jpg"
+title:      "Example Post"
+subtitle:   "不适合人类阅读，非常水的自我笔记"
+date:       2015-04-14
+author:     "Hux"
+header-img: "img/post-bg-unix-linux.jpg"
 tags:
-    - Java
-	- Guava
-	- Optional
+    - OS
+    - Unix
+    - Linux
 ---
 
 ## Foreword
