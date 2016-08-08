@@ -214,24 +214,25 @@ public void learnTargetType() {
 
 - xxx
  - xxx
-  ``` java
+``` java
    //Target Type
 public interface IInteger {
     void setInt(int i);
 }
-  ```
+```
  
- ``` java
+``` java
    //Target Type
 public interface IInteger {
     void setInt(int i);
 }
-  ```
+```
 
 #### ...
- ``` java
+
+``` java
    //Target Type
 public interface IInteger {
     void setInt(int i);
 }
-  ```
+```
