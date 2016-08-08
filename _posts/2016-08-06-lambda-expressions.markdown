@@ -28,9 +28,8 @@ tags:
         });  
 ```
 
-
-- 用法
-    - [Android Studio配置：](https://developer.android.com/preview/j8-jack.html#supported-features)
+### 用法
+#### [Android Studio配置：](https://developer.android.com/preview/j8-jack.html#supported-features)
     
         ```
         android {
@@ -47,7 +46,7 @@ tags:
         }
         ```
 		
-    - 语法
+#### 语法
         - Lambda表达式只适用于只含有一个方法的接口
         - Lambda表达式的结构：(Type params) -> {block}，整个表达式代表的是“接口的实现类”；params代表这个“接口中的方法的形参”；Type代表“形参的类型”，可以省略；block代表“接口中方法的实现“，具体请看下面的例子；
         
