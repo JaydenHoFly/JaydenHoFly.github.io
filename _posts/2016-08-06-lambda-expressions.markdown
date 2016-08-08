@@ -211,3 +211,27 @@ public void learnTargetType() {
  - 这个也不算是缺点，使用Lambda表达式必须要对函数非常的熟悉，知道它含有什么参数；
         
 >  参考文章：[Oracle官网](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax)、[Android开发者网站](https://developer.android.com/preview/j8-jack.html#supported-features)。
+
+- xxx
+ - xxx
+  ``` java
+   //Target Type
+public interface IInteger {
+    void setInt(int i);
+}
+  ```
+ 
+ ``` java
+   //Target Type
+public interface IInteger {
+    void setInt(int i);
+}
+  ```
+
+#### ...
+ ``` java
+   //Target Type
+public interface IInteger {
+    void setInt(int i);
+}
+  ```
