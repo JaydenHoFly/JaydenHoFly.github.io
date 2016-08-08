@@ -15,7 +15,7 @@ tags:
 
 > 匿名内部类已经是一种简洁的表示方法了，但是还有一个问题，例如一个接口，它只含有一个方法，那么匿名内部类就不那么易于使用了，因为会出现很多冗余的代码，这个时候开发者就会想要将函数当成一个参数传递给一个方法，例如为控件设置点击事件。所以就出现了Lambda表达式，Java8引入了这个新特性，使用Android Studio编程时，会发现为控件设置点击事件的代码会“变样”，如下第二种表示方式就是Lambda表达式，既然官方都这样用了，那我们还有什么理由不拥抱这种方式呢。
 
-```
+```java
  view.setOnClickListener(new View.OnClickListener() {//明明是这样写的
             @Override
             public void onClick(View v) {
@@ -46,11 +46,12 @@ tags:
             }
         }
         ```
+		
     - 语法
         - Lambda表达式只适用于只含有一个方法的接口
         - Lambda表达式的结构：(Type params) -> {block}，整个表达式代表的是“接口的实现类”；params代表这个“接口中的方法的形参”；Type代表“形参的类型”，可以省略；block代表“接口中方法的实现“，具体请看下面的例子；
         
-        ```
+        ```java
            public interface ISyntax {//Lambda表达式只适用于只含有一个方法的接口
             int getInt(int i);
         }
@@ -68,7 +69,7 @@ tags:
                 }
             });
     
-             // Lambda表达式其实也是匿名的，只不过不仅仅匿了对象名称，还匿了类名，方法名
+            // Lambda表达式其实也是匿名的，只不过不仅仅匿了对象名称，还匿了类名，方法名
             invokeSyntax((int i) -> { //这里的int i就是接口ISyntax中的getInt()方法中的参数
                 return i++; //大括号中的内容就是getInt()方法的实现
             });
@@ -79,7 +80,7 @@ tags:
         
         - 作用域
         
-        ```
+        ```java
         import java.util.function.Consumer;
     
         public class LambdaScopeTest {
@@ -130,7 +131,7 @@ tags:
             
             Lambda表达式只含有形参列表和实现代码块，那么Java如何判断一个Lambda表达式代表的究竟是哪个接口的实现类呢？看下面的例子：
             
-            ```
+            ```java
              //Target Type
             public interface IInteger {
                 void setInt(int i);
@@ -181,6 +182,7 @@ tags:
                 use((String str) -> "我有返回值" + str);
             }
             ```
+			
            官网总结了以下几点判断Target Type（目标类型）的方法
            
             - Variable declarations 变量声明
