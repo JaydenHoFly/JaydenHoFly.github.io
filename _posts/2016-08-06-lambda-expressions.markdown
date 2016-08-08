@@ -23,7 +23,7 @@ tags:
             }
         });
         
-  view.setOnClickListener((v) -> {//有的时候代码看上去变成了这样
+  view.setOnClickListener((v) -> {//折叠代码后看上去变成了这样
 
         });  
 ```
