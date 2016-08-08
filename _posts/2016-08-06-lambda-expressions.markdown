@@ -214,6 +214,7 @@ public void learnTargetType() {
 
 - xxx
  - xxx
+ 
 ``` java
    //Target Type
 public interface IInteger {
